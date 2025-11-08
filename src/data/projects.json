@@ -1,0 +1,28 @@
+[
+    {
+        "id": "p1",
+        "title": "Rhyno EV — Product Showcase",
+        "description": "Responsive marketing site for an EV product line with interactive comparison and pre-book flow.",
+        "image": "/src/assets/placeholder.png",
+        "tech": [
+            "React",
+            "Tailwind",
+            "Framer Motion"
+        ],
+        "live": "#",
+        "repo": "#"
+    },
+    {
+        "id": "p2",
+        "title": "SlotSwapper — Scheduler App",
+        "description": "A minimal scheduling app with drag-and-drop and slot swapping features built in TypeScript.",
+        "image": "/src/assets/placeholder.png",
+        "tech": [
+            "TypeScript",
+            "React",
+            "Tailwind"
+        ],
+        "live": "#",
+        "repo": "#"
+    }
+]

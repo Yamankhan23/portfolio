@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+    --primary: #007AFF;
+    --accent: #3A86FF;
+    --secondary: #FF6B6B;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Light mode defaults */
+body {
+    @apply bg-lightBg text-lightText antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* Neutral container styles */
+.section-surface {
+    @apply bg-lightSurface border border-borderLight;
+}
+
+
+/* Dark mode overrides */
+.dark body {
+    @apply bg-darkBg text-darkText;
+}
+
+.dark .section-surface {
+    background: theme('colors.darkSurface');
+    border-color: theme('colors.borderDark');
+}
+
+
+/* Utility micro-interactions */
+.btn-primary {
+    @apply inline-flex items-center justify-center px-4 py-2 rounded-md font-semibold shadow-sm;
+    background-color: var(--primary);
+    color: white;
+}
+
+
+.card-hover:hover {
+    transform: translateY(-6px);
+}
+
+
+/* ensure focus rings visible and color-contrasty */
+:focus {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+}
