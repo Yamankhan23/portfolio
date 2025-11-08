@@ -18,7 +18,7 @@ const projects: Project[] = [
         title: "Rhyno EV — Electric Vehicle Platform | Compare",
         description:
             "A sleek product website showcasing an EV brand with comparisons, dynamic UI, and responsive design.",
-        video: "src/assets/videos/rhyno.mp4",
+        video: "/rhyno.mp4",
         tech: ["React", "Tailwind CSS", "Framer Motion"],
         live: "https://rhynoevyamansproject.netlify.app/",
         repo: "https://github.com/Yamankhan23/Rhynoev",
@@ -28,7 +28,7 @@ const projects: Project[] = [
         title: "BookIt — Full Stack Booking Platform",
         description:
             "A complete booking app with room listings, filtering, and seamless integration between front end and backend APIs.",
-        video: "src/assets/videos/bookit.mp4",
+        video: "/bookit.mp4",
         tech: ["React", "Express.js", "MongoDB", "PostgreSQL"],
         live: "https://bookityaman.netlify.app/",
         repo: "https://github.com/Yamankhan23/bookit",
@@ -38,7 +38,7 @@ const projects: Project[] = [
         title: "Referral System — MERN + TypeScript",
         description:
             "Referral Management App enabling users to register, generate codes, earn credits, and make purchases — designed for smooth UX and maintainable architecture.",
-        video: "src/assets/videos/referral.mp4",
+        video: "/referral.mp4",
         tech: ["TypeScript", "React", "Node.js", "Express"],
         live: "https://fullstack-referral-app.vercel.app/",
         repo: "https://github.com/Yamankhan23/fullstack-referral-app",
