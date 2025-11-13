@@ -74,7 +74,7 @@ const Contact: React.FC = () => {
                     className="mt-12"
                 >
                     <a
-                        href="mailto:yamankhan23@gmail.com"
+                        href="mailto:khanyaman2000@gmail.com"
                         className="inline-block bg-primary text-white px-6 py-3 rounded-lg shadow-md hover:bg-accentBlue transition"
                     >
                         Send Email
